@@ -1,0 +1,10 @@
+services:
+  minecraft:
+    build: .
+    # image: forge_test_server
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./config/server.properties:/data/server.properties
+      - ./config/mods:/data/mods
+      - ./config/config/secretroomsmod.cfg:/data/config/secretroomsmod.cfg
