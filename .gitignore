@@ -1,5 +1,4 @@
 config/config/
-!config/config/secretroomsmod.cfg
 config/mods/
 config/unload/
 *.zip
