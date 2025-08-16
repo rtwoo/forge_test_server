@@ -1,4 +1,5 @@
 config/config/
 config/mods/
 config/unload/
+config/world/
 *.zip

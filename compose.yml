@@ -8,3 +8,4 @@ services:
       - ./config/server.properties:/data/server.properties
       - ./config/mods:/data/mods
       - ./config/config/:/data/config/
+      - ./config/world:/data/world
